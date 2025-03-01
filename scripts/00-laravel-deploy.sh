@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+which nohup
+java -verion
 echo "Running composer"
 composer install --no-dev --working-dir=/var/www/html
 
@@ -9,4 +11,4 @@ echo "Caching routes..."
 php artisan route:cache
 
 echo "Running migrations..."
-php artisan migrate --force
+#php artisan migrate --force
