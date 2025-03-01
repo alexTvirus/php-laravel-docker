@@ -13,6 +13,7 @@ ENV REAL_IP_HEADER 1
 ENV APP_ENV production
 ENV APP_DEBUG false
 ENV LOG_CHANNEL stderr
+ENV APP_KEY base64:qKieeboLsDmpW8qISpXunQoiPW2iyBr5/whnGIstu1A=
 
 # Allow composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER 1
